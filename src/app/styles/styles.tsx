@@ -43,7 +43,6 @@ bottom: 0;
 `
 
 export const Filter = styled.div`
-width: 82%;
 display: flex;
 gap: 10px;
 `
@@ -64,7 +63,7 @@ cursor: pointer;
 `
 
 export const TasksParent = styled.div`
-width: 80%;
+width: 82%;
 margin-top: 10px;
 display: flex;
 color: #344054;
