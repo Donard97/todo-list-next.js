@@ -87,7 +87,8 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #FFFFFF
+  background: #FFFFFF;
+  padding: 10%;
 }
 
 a {
