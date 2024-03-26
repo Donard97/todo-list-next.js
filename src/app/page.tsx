@@ -1,13 +1,16 @@
 import styles from "./page.module.css";
 import { ReactElement } from "react";
-import { ControlArea, CreateButton, Input } from "./styles/styles";
-import Controls from "./components/Controls/controls";
+import { TasksSection } from "./styles/styles";
+import TopControls from "./components/Controls/controls";
+import FilterParent from "./components/Filter/filter";
 
 export default function Home():ReactElement {
   return (
     <main className={styles.main}>
-      <Controls />
-      <div ></div>
+      <TopControls />
+      <TasksSection>
+        <FilterParent />
+      </TasksSection>
     </main>
   );
 }
